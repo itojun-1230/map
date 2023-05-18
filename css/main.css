@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+html {
+	font-size: 16px;
+	font-family: sans-serif;
+}
+html * {
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+}
+body {
+	min-width: 200px;
+	margin: 0;
+	padding: 1000;
+	user-select: none;
+}
+.container {
+	margin: 0 auto;
+	max-width: 980px;
+}
+header {
+	background: #3155f1;
+}
+header .container {
+	display: table-footer-group;
+	align-items: center;
+	margin: 0 auto;
+	padding: 10px 0px;
+	max-width: 1500px;
+}
+
+.page-title {
+	flex: 1 0 auto;
+	margin: 0;
+	padding: 0;
+	font-size: 1rem;
+	color: white;
+}
+.sub-title {
+	margin: 0;
+	padding: 0;
+	font-size: 1rem;
+	color: rgb(158, 203, 224);
+}
